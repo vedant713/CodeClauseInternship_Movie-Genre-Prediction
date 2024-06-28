@@ -10,7 +10,9 @@ The project utilizes natural language processing (NLP) techniques to preprocess 
 
 ## Dataset
 
-The dataset (`movies.csv`) used in this project contains movie details including plot descriptions and genres.Data was sourced from [Wikipedia Movie Plots Dataset on Kaggle](https://www.kaggle.com/datasets/jrobischon/wikipedia-movie-plots).It was preprocessed to clean and tokenize the plot descriptions before training the model.
+The dataset (`movies.csv`) used in this project contains movie details including plot descriptions and genres. It was preprocessed to clean and tokenize the plot descriptions before training the model.
+Data was sourced from [Wikipedia Movie Plots Dataset on Kaggle](https://www.kaggle.com/datasets/jrobischon/wikipedia-movie-plots)
+
 
 ## Dependencies
 
@@ -32,3 +34,25 @@ The dataset (`movies.csv`) used in this project contains movie details including
 - `notebooks/`: Jupyter notebooks used for data exploration, preprocessing, model training, and evaluation.
 - `README.md`: This file, providing an overview of the project, instructions, and dependencies.
 
+## Usage
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/vedant713/CodeClauseInternship_Movie-Genre-Prediction.git
+    
+    
+  2.**Install dependencies**:     
+  
+      
+          pip install -r requirements.txt
+  
+      
+  3.**Navigate to notebooks/ directory**:
+  
+  Explore the Jupyter notebooks to understand the data preprocessing, model training, and evaluation steps.
+  Run the notebooks:
+  Execute the notebooks sequentially to reproduce the steps and results of the movie genre prediction project.
+  Train and save the model:
+  Once satisfied with the model performance, train the final model using the provided notebooks and save it using joblib.
+  Predict movie genres:
+  Use the trained model '(movie_genre_classifier.pkl)' to predict genres for new plot descriptions.
+ 
